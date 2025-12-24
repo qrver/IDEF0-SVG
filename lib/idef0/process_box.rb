@@ -11,7 +11,7 @@ module IDEF0
     end
 
     def width
-      [Label.length(@name)+40, [top_side.anchor_count, bottom_side.anchor_count].max*20+20].max
+      [Label.length(display_name)+40, [top_side.anchor_count, bottom_side.anchor_count].max*20+20].max
     end
 
     def height
@@ -26,11 +26,30 @@ module IDEF0
       sequence < other.sequence
     end
 
+    def extract_number
+      @name =~ /^\[([^\]]+)\]/ ? $1 : nil
+    end
+
+    def display_name
+      @name.gsub(/^\[([^\]]+)\]\s*/, '')
+    end
+
     def to_svg
-      <<-XML
+      number = extract_number
+      name_text = display_name
+
+      svg = <<-XML
 <rect x='#{x1}' y='#{y1}' width='#{width}' height='#{height}' fill='none' stroke='black' />
-<text text-anchor='middle' x='#{x1 + (width / 2)}' y='#{y1 + (height / 2)}'>#{name}</text>
+<text text-anchor='middle' x='#{x1 + (width / 2)}' y='#{y1 + (height / 2)}'>#{name_text}</text>
 XML
+
+      if number
+        svg += <<-XML
+<text text-anchor='end' x='#{x2 - 5}' y='#{y2 - 5}' font-size='10'>#{number}</text>
+XML
+      end
+
+      svg
     end
   end
 end

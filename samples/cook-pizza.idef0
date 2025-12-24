@@ -1,15 +1,15 @@
-Cook Pizza receives Ingredients
-Cook Pizza respects Customer Order
-Cook Pizza respects Recipe
-Cook Pizza requires Chef
-Cook Pizza requires Kitchen
-Cook Pizza produces Pizza
+[A1] Cook Pizza receives Ingredients
+[A1] Cook Pizza respects Customer Order
+[A1] Cook Pizza respects Recipe
+[A1] Cook Pizza requires Chef
+[A1] Cook Pizza requires Kitchen
+[A1] Cook Pizza produces Pizza
 
-Take Order produces Customer Order
-Take Order respects Menu
-Take Order requires Wait Staff
+[A2] Take Order produces Customer Order
+[A2] Take Order respects Menu
+[A2] Take Order requires Wait Staff
 
-Eat Pizza receives Pizza
-Eat Pizza receives Hungry Customer
-Eat Pizza produces Satisfied Customer
-Eat Pizza produces Mess
+[A3] Eat Pizza receives Pizza
+[A3] Eat Pizza receives Hungry Customer
+[A3] Eat Pizza produces Satisfied Customer
+[A3] Eat Pizza produces Mess

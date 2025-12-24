@@ -80,7 +80,7 @@ module IDEF0
     end
 
     def label
-      LeftAlignedLabel.new(@name, Point.new(x1+5, y1-5))
+      LeftAlignedLabel.new(@name, Point.new(x1+8, y1-8))
     end
 
     def clearance_group(side)

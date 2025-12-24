@@ -33,7 +33,16 @@ module IDEF0
     end
 
     def to_svg
-      "<text text-anchor='#{text_anchor}' x='#{@point.x}' y='#{@point.y}'>#{@text}</text>"
+      padding = 4
+      rect_x = left_edge - padding
+      rect_y = top_edge - padding
+      rect_width = length + padding * 2
+      rect_height = 20 + padding * 2
+
+      <<-SVG
+<rect x='#{rect_x}' y='#{rect_y}' width='#{rect_width}' height='#{rect_height}' fill='white' stroke='none' />
+<text text-anchor='#{text_anchor}' x='#{@point.x}' y='#{@point.y}'>#{@text}</text>
+SVG
     end
   end
 

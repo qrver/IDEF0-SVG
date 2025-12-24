@@ -83,7 +83,7 @@ module IDEF0
     end
 
     def label
-      CentredLabel.new(@name, Point.new(x1, y1-5))
+      CentredLabel.new(@name, Point.new(x1, y1-10))
     end
 
     def clearance_group(side)

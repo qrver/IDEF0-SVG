@@ -99,7 +99,7 @@ module IDEF0
     end
 
     def label
-      RightAlignedLabel.new(@name, Point.new(x2-5, y2-5))
+      RightAlignedLabel.new(@name, Point.new(x2-8, y2-8))
     end
 
     def clearance_group(side)

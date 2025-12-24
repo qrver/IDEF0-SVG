@@ -1,0 +1,14 @@
+[A0] Main Process receives Input Data
+[A0] Main Process respects Policy
+[A0] Main Process produces Output Data
+[A0] Main Process requires Resources
+
+[A1] Subprocess One receives Input Data
+[A1] Subprocess One respects Policy
+[A1] Subprocess One produces Intermediate Result
+[A1] Subprocess One requires Resources
+
+[A2] Subprocess Two receives Intermediate Result
+[A2] Subprocess Two respects Policy
+[A2] Subprocess Two produces Output Data
+[A2] Subprocess Two requires Resources
