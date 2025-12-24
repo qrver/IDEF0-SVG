@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+<!ATTLIST svg xmlns:xlink CDATA #FIXED "http://www.w3.org/1999/xlink">
+]>
+<svg xmlns='http://www.w3.org/2000/svg'
+xmlns:xlink='http://www.w3.org/1999/xlink'
+width='790pt' height='500pt'
+viewBox='0.0 0.0 790.0 500.0'
+>
+<style type='text/css'>
+  svg {
+    background-color: white;
+  }
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+</style>
+<g>
+  <rect x='162' y='80' width='100' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='212' y='110'>Function D</text>
+
+<rect x='282' y='180' width='100' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='332' y='210'>Function C</text>
+
+<rect x='402' y='280' width='100' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='452' y='310'>Function B</text>
+
+<rect x='522' y='380' width='100' height='60' fill='none' stroke='black' />
+<text text-anchor='middle' x='572' y='410'>Function A</text>
+
+  <line x1='20' y1='110' x2='162' y2='110' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='162,110 156,113 156,107 162,110' />
+<text text-anchor='start' x='25' y='105'>Input-D</text>
+
+<line x1='20' y1='260' x2='40' y2='260' stroke='black' stroke-dasharray='5,5' />
+<line x1='40' y1='210' x2='40' y2='310' stroke='black' stroke-dasharray='5,5' />
+<line x1='40' y1='210' x2='282' y2='210' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='282,210 276,213 276,207 282,210' />
+<line x1='40' y1='310' x2='402' y2='310' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='402,310 396,313 396,307 402,310' />
+<text text-anchor='start' x='25' y='255'>Input-Shared</text>
+<line x1='20' y1='410' x2='522' y2='410' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='522,410 516,413 516,407 522,410' />
+<text text-anchor='start' x='25' y='405'>Input-A</text>
+
+<line x1='750' y1='160' x2='770' y2='160' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='770,160 764,163 764,157 770,160' />
+<line x1='750' y1='110' x2='750' y2='210' stroke='black' stroke-dasharray='5,5' />
+<line x1='262' y1='110' x2='750' y2='110' stroke='black' stroke-dasharray='5,5' />
+<line x1='382' y1='210' x2='750' y2='210' stroke='black' stroke-dasharray='5,5' />
+<text text-anchor='end' x='765' y='155'>Output-Shared</text>
+<line x1='502' y1='310' x2='770' y2='310' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='770,310 764,313 764,307 770,310' />
+<text text-anchor='end' x='765' y='305'>Output-B</text>
+
+<line x1='622' y1='410' x2='770' y2='410' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='770,410 764,413 764,407 770,410' />
+<text text-anchor='end' x='765' y='405'>Output-A</text>
+
+<line x1='212' y1='40' x2='212' y2='80' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='212,80 209,74 215,74 212,80' />
+<text text-anchor='middle' x='212' y='35'>Control-D</text>
+
+<line x1='332' y1='40' x2='332' y2='180' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='332,180 329,174 335,174 332,180' />
+<text text-anchor='middle' x='332' y='35'>Control-C</text>
+
+<line x1='512' y1='40' x2='512' y2='40' stroke='black' stroke-dasharray='5,5' />
+<line x1='452' y1='40' x2='572' y2='40' stroke='black' stroke-dasharray='5,5' />
+<line x1='452' y1='40' x2='452' y2='280' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='452,280 449,274 455,274 452,280' />
+<line x1='572' y1='40' x2='572' y2='380' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='572,380 569,374 575,374 572,380' />
+<text text-anchor='middle' x='512' y='35'>Control-Shared</text>
+<line x1='212' y1='460' x2='212' y2='140' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='212,140 209,146 215,146 212,140' />
+<text text-anchor='middle' x='212' y='475'>Mechanism-D</text>
+
+<line x1='332' y1='460' x2='332' y2='240' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='332,240 329,246 335,246 332,240' />
+<text text-anchor='middle' x='332' y='475'>Mechanism-C</text>
+
+<line x1='512' y1='460' x2='512' y2='460' stroke='black' stroke-dasharray='5,5' />
+<line x1='452' y1='460' x2='572' y2='460' stroke='black' stroke-dasharray='5,5' />
+<line x1='452' y1='460' x2='452' y2='340' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='452,340 449,346 455,346 452,340' />
+<line x1='572' y1='460' x2='572' y2='440' stroke='black' stroke-dasharray='5,5' />
+<polygon fill='black' stroke='black' points='572,440 569,446 575,446 572,440' />
+<text text-anchor='middle' x='512' y='475'>Mechanism-Shared</text>
+</g>
+</svg>

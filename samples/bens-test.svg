@@ -1,0 +1,13 @@
+/Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/external_input_line.rb:33:in `initialize': undefined method `first' for <IDEF0::ArraySet:23529569780>:IDEF0::ArraySet (NoMethodError)
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/external_input_line.rb:26:in `new'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/external_input_line.rb:26:in `block in make_lines_grouped'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/external_input_line.rb:25:in `each'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/external_input_line.rb:25:in `make_lines_grouped'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/diagram.rb:95:in `block in create_lines'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/diagram.rb:94:in `each'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/diagram.rb:94:in `create_lines'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/diagram.rb:14:in `block in diagram'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/diagram.rb:12:in `tap'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/diagram.rb:12:in `diagram'
+	from /Users/qrver/Desktop/ВР-22/06-Семестр-7/7-СЕМ-РАНХиГС/IDEF0-SVG/IDEF0-SVG/lib/idef0/process.rb:107:in `decompose'
+	from bin/decompose:5:in `<main>'

@@ -92,9 +92,7 @@ module IDEF0
       @lines.each(&:attach)
 
       (EXTERNAL_LINE_TYPES + UNATTACHED_LINE_TYPES).each do |line_type|
-        @boxes.each do |box|
-          line_type.make_line(self, box) { |line| @lines.add(line.attach) }
-        end
+        line_type.make_lines_grouped(self, @boxes) { |line| @lines.add(line.attach) }
       end
     end
 

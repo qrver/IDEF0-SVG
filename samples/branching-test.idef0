@@ -1,0 +1,19 @@
+Function A receives Input-A
+Function A respects Control-Shared
+Function A produces Output-A
+Function A requires Mechanism-Shared
+
+Function B receives Input-Shared
+Function B respects Control-Shared
+Function B produces Output-B
+Function B requires Mechanism-Shared
+
+Function C receives Input-Shared
+Function C respects Control-C
+Function C produces Output-Shared
+Function C requires Mechanism-C
+
+Function D receives Input-D
+Function D respects Control-D
+Function D produces Output-Shared
+Function D requires Mechanism-D
